@@ -36,6 +36,6 @@ t.print();
 t.createOffer(mycbk)
 
 fetch('https://algostates.github.io/webapp/index.html')
-.then(result => result.json())
+//.then(result => result.json())
 .then(jres => console.log(jres))
 .catch(err => console.log('error fetching:',err));
