@@ -35,7 +35,7 @@ let mycbk = (sdp, a, b) => {
 t.print();
 t.createOffer(mycbk)
 
-fetch('https://google.com/')
+fetch('https://github.com/')
 .then(result => result.json())
 .then(jres => console.log(jres))
 .catch(err => console.log('error fetching:',err));
